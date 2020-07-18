@@ -28,5 +28,6 @@ docker-compose -f docker-compose.development.yml up
 sh setESVolumePermission.sh
 docker-compose -f docker-compose.development.yml up
 # If error on searching
+sh getESIndex.sh
 sh deleteESIndex.sh
 ```
