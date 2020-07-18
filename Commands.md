@@ -24,6 +24,7 @@ cd crowi-1.7.9/
 # Apply Changes
 sh createDotEnv.sh
 docker-compose -f docker-compose.development.yml up
+# Elasticsearch Error Happens
 sh setESVolumePermission.sh
 docker-compose -f docker-compose.development.yml up
 ```
