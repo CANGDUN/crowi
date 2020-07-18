@@ -27,4 +27,6 @@ docker-compose -f docker-compose.development.yml up
 # Elasticsearch Error Happens
 sh setESVolumePermission.sh
 docker-compose -f docker-compose.development.yml up
+# If error on searching
+sh deleteESIndex.sh
 ```
